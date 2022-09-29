@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-no-undef */
 import React from "react";
 import Link from "next/link";
@@ -35,7 +36,7 @@ const FooterBanner = ({
           </Link>
         </div>
 
-        <Image src={urlFor(image)} alt="" className="footer-banner-image" />
+        <img src={urlFor(image)} alt="" className="footer-banner-image" />
       </div>
     </div>
   );
