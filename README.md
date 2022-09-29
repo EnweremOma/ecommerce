@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Live link
 
-This application is hosted on Netlify and can be viewed using the link
+This ecommerce application is hosted on Netlify and can be viewed using the link
 
 https://omalicha-accessories.netlify.app/
 
