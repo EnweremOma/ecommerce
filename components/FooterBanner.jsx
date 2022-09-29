@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 import React from "react";
 import Link from "next/link";
 import { urlFor } from "../lib/client";
@@ -34,7 +35,7 @@ const FooterBanner = ({
           </Link>
         </div>
 
-        <img src={urlFor(image)} className="footer-banner-image" />
+        <Image src={urlFor(image)} alt="" className="footer-banner-image" />
       </div>
     </div>
   );
